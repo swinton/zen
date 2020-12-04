@@ -26,7 +26,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        path: ./zen.txt
+        path: zen.txt
         commit-message: Add more zen
 
     - name: Echo commit SHA
