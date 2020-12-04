@@ -1,2 +1,3 @@
 Half measures are as bad as nothing at all.
 Encourage flow.
+Non-blocking is better than blocking.
