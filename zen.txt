@@ -5,3 +5,4 @@ Approachable is better than simple.
 Practicality beats purity.
 Responsive is better than fast.
 Favor focus over features.
+Design for failure.
