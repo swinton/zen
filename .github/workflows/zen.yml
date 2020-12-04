@@ -18,7 +18,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        gh api zen >> zen.txt
+        echo "$( gh api zen )\n" >> zen.txt
 
     - name: Commit zen
       id: commit
