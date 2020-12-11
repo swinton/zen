@@ -23,11 +23,11 @@ jobs:
 
     - name: Commit zen
       id: commit
-      uses: swinton/commit@v1
+      uses: swinton/commit@v2.x
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        path: zen.txt
+        files: zen.txt
         commit-message: Add more zen
 
     - name: Inspect environment
