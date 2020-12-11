@@ -7,3 +7,4 @@ Responsive is better than fast.
 Favor focus over features.
 Design for failure.
 Non-blocking is better than blocking.
+Favor focus over features.
