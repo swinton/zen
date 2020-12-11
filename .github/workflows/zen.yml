@@ -27,17 +27,9 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        files: zen.txt
+        files: |
+          zen.txt
         commit-message: Add more zen
-
-    - name: Inspect environment
-      run: |
-        echo REF=$REF
-        echo HEAD_SHA=$HEAD_SHA
-        echo BASE_TREE_SHA=$BASE_TREE_SHA
-        echo BLOB_SHA=$BLOB_SHA
-        echo TREE_SHA=$TREE_SHA
-        echo COMMIT_SHA=$COMMIT_SHA
 
     - name: Echo commit SHA
       env:
