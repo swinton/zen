@@ -9,3 +9,4 @@ Design for failure.
 Non-blocking is better than blocking.
 Favor focus over features.
 Non-blocking is better than blocking.
+It's not fully shipped until it's fast.
